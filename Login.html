@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <title>信工党建</title>
+    <link rel="icon" href="./Resource/ImgFile/icon.png">
+    <link rel="styleSheet" href="./Resource/CssFile/Global.css">
+    <link rel="styleSheet" href="./Resource/CssFile/Common.css">
+    <style>
+        /* 顶部 */
+        .return_a {
+            float: left;
+            margin-left: 10px;
+        }
+        .title_a {
+            margin-right: 5%;
+        }
+        /* 主体 */
+        .all_kuang{
+            height: 900px;
+            background-color: rgb(185, 0, 0);
+            position: relative;
+            top: 0;
+            text-align: center;
+        }
+        .model_input{
+            border: 1px solid yellow; width: 80%; margin: 10px auto;
+        }
+        input{
+            height: 40px;
+            width: auto;
+            border:0 ;
+            outline: medium;
+            background-color:  rgb(185, 0, 0);
+        }
+        button{
+            width: 80%;
+            height: 40px;
+            background-color: rgb(230, 0, 0); 
+            border: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 头部信息 -->
+    <header>
+        <a href="./index.html" class="return_a">
+            <img src="./Resource/ImgFile/return.png">
+        </a>
+        <a class="title_a">
+            登录
+        </a>
+    </header>
+
+    <section class="all_kuang">
+        <img src="./Resource/ImgFile/logo.png">
+        <form action="./Index.html" style="font-size: 20px;line-height: 2em;margin-top: 80px;">
+            <p class="model_input">
+                身份证号：<input type="text">
+            </p>
+            <p class="model_input">
+                &emsp;&emsp;密码：<input type="password" style="background-color:  rgb(185, 0, 0);">
+            </p>
+            <p>
+                <button>登录</button>
+            </p>
+        </form>
+    </section>
+
+</body>
+
+</html>
