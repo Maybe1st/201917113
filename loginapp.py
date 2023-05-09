@@ -1,6 +1,5 @@
 import streamlit as st
 def main():
-import streamlit as st
 
 # 登录状态管理
 is_logged_in = st.checkbox("登录")
